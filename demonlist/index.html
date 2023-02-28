@@ -367,8 +367,8 @@
             $("#leveldescription").empty();
             $("#leveldescription").text(entry.desc);
             $("#levelvid").empty();
-            if (entry.showcaseId !== null && entry.showcaseId !== "") {
-                $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.showcaseId}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+            if (entry.showcaseVid !== null && entry.showcaseVid !== "") {
+                $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.showcaseVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
             }
             $("#levelqualify").text(entry.percentToQualify);
             $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
