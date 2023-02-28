@@ -361,7 +361,7 @@
             $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
             var author = entry.author;
             var final_author = entry.creators;
-            final_author = 'От '+final_author+', <a href="https://youtube.com/watch?v='+entry.verification+'">верифнуто '+entry.verifier
+            final_author = 'От '+final_author+', верифнуто '+entry.verifier
             $("#inside-level-author").empty();
             $("#inside-level-author").html(final_author);
             $("#leveldescription").empty();
