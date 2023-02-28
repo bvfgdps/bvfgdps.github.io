@@ -17,7 +17,7 @@ const d = {
 			"verifier":"Sus",
 			"id": 993,
 			"pass": "запрещено копирование",
-			"percentToQualify": 993,
+			"percentToQualify": 56,
 			"showcaseVid": "verification vid link here (youtube and twitch only allowed)",
 			"verification": "verification vid link here (youtube and twitch only allowed)",	
 /*for legacy list add the word "legacy" behind the word key right away: "legacykey"*/
